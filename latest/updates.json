@@ -1,0 +1,49 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.14",
+  "channel": "stable",
+  "published_at": "2026-10-01T12:13:34Z",
+  "notes": "fix: PUBLIC_REPO 使用处统一 Trim——var 值末尾粘 CRLF（输入框不 trim）致 API URL 带 %0D%0A 必 404（test6 re-run 实测；此前误判为拼写少 e，实为行尾字符吃显示的假象）",
+  "files": {
+    "windows_setup": {
+      "name": "JianJi-Setup-1.0.14.exe",
+      "sha256": "1aa1e59ec16ae1ba90cd2d78c89998dad4717d907b8402234e79680ee7bd71cc",
+      "size": 31889698,
+      "urls": [
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-Setup-1.0.14.exe",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-Setup-1.0.14.exe",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-Setup-1.0.14.exe"
+      ]
+    },
+    "fnos_fpk": {
+      "name": "JianJi-fnOS-1.0.14.fpk",
+      "sha256": "69ee222e7711e44a3c26b8b2068be0d7fd07807a859011b1db26903e01fb0597",
+      "size": 458833,
+      "urls": [
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-fnOS-1.0.14.fpk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-fnOS-1.0.14.fpk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/JianJi-fnOS-1.0.14.fpk"
+      ]
+    },
+    "android_apk": {
+      "name": "Jianji-Android-1.0.14.apk",
+      "sha256": "b4ea93d4230a0cd8a49d383b512c64b46676c4333e34ad471dc20a45ffc86458",
+      "size": 62899579,
+      "urls": [
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.apk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.apk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.apk"
+      ]
+    },
+    "android_aab": {
+      "name": "Jianji-Android-1.0.14.aab",
+      "sha256": "6a5304959b30d36bb4ade8c99a2f22a7f733d612e8b2c40f018b635dbc615275",
+      "size": 60328982,
+      "urls": [
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.aab",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.aab",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.14/Jianji-Android-1.0.14.aab"
+      ]
+    }
+  }
+}
