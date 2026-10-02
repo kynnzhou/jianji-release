@@ -1,48 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "1.0.18",
+  "version": "1.0.19",
   "channel": "stable",
-  "published_at": "2026-10-02T06:44:16Z",
-  "notes": "简记 1.0.18\n\n优化：安卓「检查更新」界面重排——新版本号、发布日期一目了然；发布说明默认只显示两行，点「展开全部说明」滚动查看，不再是长篇文字墙。下载进度、自动升级开关等功能不变。",
+  "published_at": "2026-10-02T08:00:18Z",
+  "notes": "简记 1.0.19\n\n修复：安卓应用内升级两个问题——服务器版本较旧时不再无限转圈，现在会明确提示先把服务器升级到 1.0.17 以上；升级失败的原因会直接显示在界面上，自动升级开关在失败后也能正常关闭与重试。",
   "files": {
     "windows_setup": {
-      "name": "JianJi-Setup-1.0.18.exe",
-      "sha256": "52f14a1e5159e642f70d674a8356fa18fa8e101109764c5ba2946b0bc1c65687",
-      "size": 32093815,
+      "name": "JianJi-Setup-1.0.19.exe",
+      "sha256": "77722998501cdaf4a73aa7595d0ebbaaac335099b084622ecb16eed127bfe7f5",
+      "size": 32092856,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-Setup-1.0.18.exe",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-Setup-1.0.18.exe",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-Setup-1.0.18.exe"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-Setup-1.0.19.exe",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-Setup-1.0.19.exe",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-Setup-1.0.19.exe"
       ]
     },
     "fnos_fpk": {
-      "name": "JianJi-fnOS-1.0.18.fpk",
-      "sha256": "83d8663f596681492bea6d03e0a9138315d97ec16eece8c481e4594e2aaa89a8",
-      "size": 472952,
+      "name": "JianJi-fnOS-1.0.19.fpk",
+      "sha256": "1519442ca2ffac272e8f4e84656a77cafd70c984b1580dff72d8d84c36d72370",
+      "size": 472955,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-fnOS-1.0.18.fpk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-fnOS-1.0.18.fpk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/JianJi-fnOS-1.0.18.fpk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-fnOS-1.0.19.fpk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-fnOS-1.0.19.fpk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/JianJi-fnOS-1.0.19.fpk"
       ]
     },
     "android_apk": {
-      "name": "Jianji-Android-1.0.18.apk",
-      "sha256": "3ed36e9ec2a6f6282b294a80d49a7e45ffe1ad546fe43f2c9cbcb285d33dd484",
+      "name": "Jianji-Android-1.0.19.apk",
+      "sha256": "ff3531f3e2933ad68884cd52b1e4a016eda1778ff083ff741856f6239fd0900c",
       "size": 63552823,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.apk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.apk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.apk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.apk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.apk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.apk"
       ]
     },
     "android_aab": {
-      "name": "Jianji-Android-1.0.18.aab",
-      "sha256": "534b36dcc4ed3421ba47f79e78b59ef529326ad6f321fa155c8ea08fec7c1684",
-      "size": 60845541,
+      "name": "Jianji-Android-1.0.19.aab",
+      "sha256": "44c34bc7219307f088af3a083fb7be3939e497ff7b31b7470158dd9109e43a23",
+      "size": 60851517,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.aab",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.aab",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.18/Jianji-Android-1.0.18.aab"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.aab",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.aab",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.19/Jianji-Android-1.0.19.aab"
       ]
     }
   }
