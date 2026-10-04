@@ -1,52 +1,52 @@
 {
   "manifest_version": 1,
-  "version": "1.0.29",
+  "version": "1.0.30",
   "channel": "stable",
-  "published_at": "2026-10-04T08:21:46Z",
-  "notes": "简记 1.0.29\n\n这一次更新集中打磨应用内升级体验：升级窗口更自由、升级过程更耐久、下载源更可靠。\n\n改进\n\n升级窗口恢复随时可关闭：点窗口外或按返回键即可收起，下载在后台继续不受影响；完成时会自动弹出系统安装页，重新打开升级页也会自动接回进度或直接进入安装。\n\n升级过程更耐久：服务器或网络的瞬时抖动不再中断升级（自动容错重试），接收安装包中断也会自动重试一次，等待窗口放宽到 15 分钟。\n\n升级下载源实测换血：更快更稳的镜像优先，失效镜像自动垫底轮换，减少下载缓慢和卡住。\n\n修复\n\n飞牛版升级后，桌面图标和入口端口被改回默认的问题——现在升级全程自动保持你设置的自定义端口。\n\n飞牛版升级包下载偶发卡住（进度不动也不报错）的问题——卡住超过 15 分钟会自动解锁，重试立即生效。",
+  "published_at": "2026-10-04T12:25:02Z",
+  "notes": "简记 1.0.30\n\n这一次更新让 AI 更懂分寸、更好用：没配置时安静退出、配置后能力更全；搜索结果也更透明。\n\n改进\n\n未配置 AI 服务时，界面上不再显示点了会报错的 AI 按钮——管理员会在提示里看到一键前往配置的入口，配置完成立即恢复。\n\n搜索更透明：意思相近但用词不同的笔记也会被找到，并带有「语义命中」标记，与普通命中一眼区分。\n\n新增\n\nAI 助手新增两个实用能力：可以把笔记移动到指定笔记本；误删的笔记可以让它立即恢复——删除与恢复成对出现，删错不慌。\n\n修复\n\n飞牛版：修复自定义端口下升级后，应用中心误报「无法更新」的问题——实际更新早已成功，现在不会再误报。",
   "files": {
     "windows_setup": {
-      "name": "JianJi-Setup-1.0.29.exe",
-      "sha256": "c1818708a5e6f3ae1ff24143568c5ae457d994dc6fb7266b3166db30f0ee005f",
-      "size": 32446569,
+      "name": "JianJi-Setup-1.0.30.exe",
+      "sha256": "928f12e72d3ec511bb36b0c30f2c32464a870cf0d4938023c397421b8c86d695",
+      "size": 32448284,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-Setup-1.0.29.exe",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-Setup-1.0.29.exe",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-Setup-1.0.29.exe",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-Setup-1.0.29.exe"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe"
       ]
     },
     "fnos_fpk": {
-      "name": "JianJi-fnOS-1.0.29.fpk",
-      "sha256": "366e943b8e36c3ab4c9faae9868b28ace56f159ff99d32c106d9333e8da447c1",
-      "size": 846529,
+      "name": "JianJi-fnOS-1.0.30.fpk",
+      "sha256": "3d418e2f206a8262e2524a44c94057849d76f1d8d11194a75971b586a842c602",
+      "size": 849078,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-fnOS-1.0.29.fpk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-fnOS-1.0.29.fpk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-fnOS-1.0.29.fpk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/JianJi-fnOS-1.0.29.fpk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk"
       ]
     },
     "android_apk": {
-      "name": "Jianji-Android-1.0.29.apk",
-      "sha256": "57a46d8477c1954edcf8054a27f2559708880302f44ae62ef8efc9d8951ea696",
+      "name": "Jianji-Android-1.0.30.apk",
+      "sha256": "2d621b96e6846d8ec603512b0ab44ecfed6afe2e6fe2008103fb3a1c06a02ebd",
       "size": 65579433,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.apk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.apk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.apk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.apk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.apk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.apk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.apk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.apk"
       ]
     },
     "android_aab": {
-      "name": "Jianji-Android-1.0.29.aab",
-      "sha256": "2d527eccba5bc4d0aae84f2b6ba381ba9a00873c4367eb137093091203d57722",
-      "size": 63035091,
+      "name": "Jianji-Android-1.0.30.aab",
+      "sha256": "8f58f29173c5b1494ad2105285ef52171ccab65d2d232494a0b8689954880ee2",
+      "size": 63035081,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.aab",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.aab",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.aab",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.29/Jianji-Android-1.0.29.aab"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.aab",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.aab",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.aab",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.aab"
       ]
     }
   }
