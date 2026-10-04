@@ -2,13 +2,13 @@
   "manifest_version": 1,
   "version": "1.0.30",
   "channel": "stable",
-  "published_at": "2026-10-04T12:25:02Z",
+  "published_at": "2026-10-04T14:21:34Z",
   "notes": "简记 1.0.30\n\n这一次更新让 AI 更懂分寸、更好用：没配置时安静退出、配置后能力更全；搜索结果也更透明。\n\n改进\n\n未配置 AI 服务时，界面上不再显示点了会报错的 AI 按钮——管理员会在提示里看到一键前往配置的入口，配置完成立即恢复。\n\n搜索更透明：意思相近但用词不同的笔记也会被找到，并带有「语义命中」标记，与普通命中一眼区分。\n\n新增\n\nAI 助手新增两个实用能力：可以把笔记移动到指定笔记本；误删的笔记可以让它立即恢复——删除与恢复成对出现，删错不慌。\n\n修复\n\n飞牛版：修复自定义端口下升级后，应用中心误报「无法更新」的问题——实际更新早已成功，现在不会再误报。",
   "files": {
     "windows_setup": {
       "name": "JianJi-Setup-1.0.30.exe",
-      "sha256": "928f12e72d3ec511bb36b0c30f2c32464a870cf0d4938023c397421b8c86d695",
-      "size": 32448284,
+      "sha256": "a7ae150a30311751a948647ee12f74898b3ab2a9b0cdf6b4bbc3fe9f67ef059b",
+      "size": 32440896,
       "urls": [
         "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe",
         "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-Setup-1.0.30.exe",
@@ -18,8 +18,8 @@
     },
     "fnos_fpk": {
       "name": "JianJi-fnOS-1.0.30.fpk",
-      "sha256": "3d418e2f206a8262e2524a44c94057849d76f1d8d11194a75971b586a842c602",
-      "size": 849078,
+      "sha256": "f0022d248f883a41202b6e3b95fe5f48968a74324030b00c51da4d72581cec5d",
+      "size": 849418,
       "urls": [
         "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk",
         "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/JianJi-fnOS-1.0.30.fpk",
@@ -29,7 +29,7 @@
     },
     "android_apk": {
       "name": "Jianji-Android-1.0.30.apk",
-      "sha256": "2d621b96e6846d8ec603512b0ab44ecfed6afe2e6fe2008103fb3a1c06a02ebd",
+      "sha256": "e943e45ece79cc0e6c35426fc9148272d3fef5f91d7537aa05c2c9afd7edf14c",
       "size": 65579433,
       "urls": [
         "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.30/Jianji-Android-1.0.30.apk",
