@@ -53,7 +53,7 @@ API Key（DeepSeek / 硅基流动 / 本地 Ollama 都行），笔记内容不会
 
 **开放与自动化**
 - 开放 API（个人令牌）+ Webhook（HMAC 签名、失败重试）
-- MCP Server（8 个工具，供 AI 客户端接入）
+- MCP Server（9 个工具，供 AI 客户端接入；删改均有回收站兜底）
 - 浏览器剪藏扩展（Chrome MV3）、公开分享链接（可设有效期与密码）
 - 导入迁移中心（常见笔记格式一键导入）
 
@@ -100,8 +100,8 @@ API Key（DeepSeek / 硅基流动 / 本地 Ollama 都行），笔记内容不会
 }
 ```
 
-可用工具：`search_notes` / `list_notes` / `list_notebooks` / `list_tags` / `get_note` / `create_note` / `update_note` / `delete_note`。
-令牌即身份：AI 只能读写创建令牌那个账号自己的笔记。完整说明见应用内「设置中心 → MCP 工具」。
+可用工具：`search_notes` / `list_notes` / `list_notebooks` / `list_tags` / `get_note` / `create_note` / `update_note`（可移动笔记本） / `delete_note`（进回收站） / `restore_note`（恢复）。
+令牌即身份：AI 只能读写创建令牌那个账号自己的笔记；删除可随时恢复。完整说明见应用内「设置中心 → MCP 工具」。
 
 ## 数据与安全
 
