@@ -1,52 +1,52 @@
 {
   "manifest_version": 1,
-  "version": "1.0.31",
+  "version": "1.0.32",
   "channel": "stable",
-  "published_at": "2026-10-05T00:10:53Z",
-  "notes": "简记 1.0.31\n\n这一次更新把写作界面整个焕新：编辑时直接看到成品的样子，任务清单点一下就打勾；飞牛版修好了桌面图标端口乱跳的老毛病。\n\n改进\n\n编辑器焕新：写作时标题按样式大字显示、井号星号等符号自动隐藏，写出来的就是看到的样子；光标所在行仍显示原始符号，修改不迷糊。\n\n任务清单的勾选框可以直接点击打勾，不用再手动改符号；在列表末尾按回车会自动续写下一项，格式化后撤销也一步步更精准。\n\n历史版本更好读：翻看旧版本时，标题、清单、代码、链接按样式清晰区分，不再是整片纯文本；深色模式下行内代码颜色也提亮了，看得更清楚。\n\n修复\n\n飞牛版：修复自定义端口安装、升级或改配置后，桌面图标偶尔跳回默认端口的问题——现在所有路径都保持你设置的端口。",
+  "published_at": "2026-10-05T07:05:49Z",
+  "notes": "简记 1.0.32\n\n这一次更新把手机版重新整理了一遍：底部分成笔记、AI、设置三个入口，搜索一眼就能找到，写作时的状态也说得明明白白；平板的导航也一并升级。\n\n新增\n\n手机版底部新增「设置」常驻入口；平板新增左侧导航栏，AI 问答和设置在宽屏下随时可达，不用再回手机布局。\n\n笔记列表顶部新增常驻搜索框，下方一排筛选标签——全部、置顶、#标签，点一下就筛，找笔记少翻两层。\n\n改进\n\n编辑器工具条精简为高频按钮，删除线、表格、图片、内链收进「插入」面板；保存状态拆成两段清楚表达——「已存本机」和「已同步 / 待同步」各说各话，离线写作心里更有底。",
   "files": {
     "windows_setup": {
-      "name": "JianJi-Setup-1.0.31.exe",
-      "sha256": "4fa35789ee2973259f136b947d0d5d33004586dd8de45a098c2c6a0591e827bb",
-      "size": 32605278,
+      "name": "JianJi-Setup-1.0.32.exe",
+      "sha256": "d5e7f6daaaa50a70852bc851ac550fd2b710ed61903cd0921f87589e99dcea76",
+      "size": 32603073,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-Setup-1.0.31.exe",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-Setup-1.0.31.exe",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-Setup-1.0.31.exe",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-Setup-1.0.31.exe"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-Setup-1.0.32.exe",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-Setup-1.0.32.exe",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-Setup-1.0.32.exe",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-Setup-1.0.32.exe"
       ]
     },
     "fnos_fpk": {
-      "name": "JianJi-fnOS-1.0.31.fpk",
-      "sha256": "b5cdb3ba0b1e7001e94571ddca381d0ba43193500f464c2971bd11eb6d3243ba",
-      "size": 1037634,
+      "name": "JianJi-fnOS-1.0.32.fpk",
+      "sha256": "c626fdd02cce20337369fa21919eb5cb71bb47721a44263eb5b40efbe37d0c4e",
+      "size": 1037584,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-fnOS-1.0.31.fpk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-fnOS-1.0.31.fpk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-fnOS-1.0.31.fpk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/JianJi-fnOS-1.0.31.fpk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-fnOS-1.0.32.fpk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-fnOS-1.0.32.fpk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-fnOS-1.0.32.fpk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/JianJi-fnOS-1.0.32.fpk"
       ]
     },
     "android_apk": {
-      "name": "Jianji-Android-1.0.31.apk",
-      "sha256": "7dd72d6c214dfd2ec31ffd1a075a6165a2d2cf97bdf9543ea44828f48ec48c23",
-      "size": 65579433,
+      "name": "Jianji-Android-1.0.32.apk",
+      "sha256": "26d23fff752245db12069cccfcfa5379dd5973d0c08f965dad265e9586bf6211",
+      "size": 65612497,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.apk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.apk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.apk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.apk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.apk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.apk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.apk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.apk"
       ]
     },
     "android_aab": {
-      "name": "Jianji-Android-1.0.31.aab",
-      "sha256": "424dc0322857922a0d429ce756d1eed9b1b632e45c4a0638fc2b318ab2e661e0",
-      "size": 63035090,
+      "name": "Jianji-Android-1.0.32.aab",
+      "sha256": "4b2cdaabfa932517f8b3a3bdaead98e791fa92b87ce90092af11d1a970f797d4",
+      "size": 63149073,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.aab",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.aab",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.aab",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.31/Jianji-Android-1.0.31.aab"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.aab",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.aab",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.aab",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.32/Jianji-Android-1.0.32.aab"
       ]
     }
   }
