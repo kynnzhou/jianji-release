@@ -1,52 +1,52 @@
 {
   "manifest_version": 1,
-  "version": "1.0.37",
+  "version": "1.0.38",
   "channel": "stable",
-  "published_at": "2026-10-13T11:19:45Z",
-  "notes": "简记 1.0.37\n\n这版集中修掉两个你在真实设备上实测反馈的问题：手机上写作被打断、安卓端图标没换干净。\n\n修复\n\niPhone、iPad：写笔记时停下来想几秒，输入法不再意外收起——保存完全在后台悄悄完成，界面不再闪动，可以一口气连续写完一整段，不用反复点输入框。\n\n安卓：登录页和左侧栏顶部换上全新的品牌图标；桌面图标的显示比例也修正了，不再显得拥挤。",
+  "published_at": "2026-11-01T14:10:11Z",
+  "notes": "简记 1.0.38\n\n这一版的主线是「AI 从问答到动手」：AI 助手现在能按你的指令自己整理笔记库——改完可审、可撤销。同时带来图表渲染、智能视图和一批日常体验升级。\n\n新增\n\nAI 动手整理：对 AI 助手说「把这篇整理成 Markdown」「给工作笔记打上标签」，它会先检索笔记、列出改动清单，你逐条勾选后才真正执行，整批可一键撤销；手机端同样可用。\n\n个人 AI 服务：每位用户可在设置里填自己的 AI 接口地址和 API Key，用自己的模型和额度；家人继续用共享配置互不影响，每日次数上限照常生效。\n\nmermaid 图表：在笔记里用 ```mermaid 代码块写流程图、时序图、甘特图，预览时直接渲染成图，自动适配深色模式。\n\n智能视图：把常用筛选条件存成视图，看板形态拖拽卡片即改标签，表格形态支持分组折叠与汇总；配合 ==高亮语法== 可把文字标成六种颜色。\n\n安卓桌面加强：新增「最近笔记」桌面组件（点条目直达笔记）和下拉快捷设置里的「记一笔」磁贴。\n\nAI 用量与限额：设置里可看今日/本月调用次数和近两周趋势；管理员可给单个家庭成员单独设每日 AI 上限（没设的跟随全局）。\n\n改进\n\n模型选择更自由：设置中心与问答栏共用同一份实时模型列表，服务端默认模型与最大输出长度都可在界面调整；Ollama、LM Studio 等本地模型无需 Key、填地址即用。\n\nAI 回复更好用：整篇转成 Markdown 后可一键替换整篇笔记（原文自动进历史版本）；语音速记转写后自动去语气词、补标点。\n\nMCP 接入扩展到 12 个工具：新增按笔记本取笔记、给笔记加标签、向笔记追加内容等能力。\n\nAI 入口常驻显示：未配置 AI 时入口不再隐藏，点进去按角色给出配置引导。\n\n修复\n\nAI 设置保存不再丢失已配置的 Key（此前部分保存会把其他服务的配置一并清掉，重启后 AI 失效）。\n\n思考型模型（如 glm-5.3 系列）不再出现「回复为空」。\n\n安卓与电脑双向同步盲区：任一端改动，另一端的列表与编辑区现在都能实时看到。",
   "files": {
     "windows_setup": {
-      "name": "JianJi-Setup-1.0.37.exe",
-      "sha256": "1853801889917545826b86dd2f4e2ec1e96b201e5702d26726ae2aac06066388",
-      "size": 32645906,
+      "name": "JianJi-Setup-1.0.38.exe",
+      "sha256": "7710e7ae6794335934035b9f99056786d130a42692831aef4c37adc27182e0bd",
+      "size": 33906374,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-Setup-1.0.37.exe",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-Setup-1.0.37.exe",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-Setup-1.0.37.exe",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-Setup-1.0.37.exe"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-Setup-1.0.38.exe",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-Setup-1.0.38.exe",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-Setup-1.0.38.exe",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-Setup-1.0.38.exe"
       ]
     },
     "fnos_fpk": {
-      "name": "JianJi-fnOS-1.0.37.fpk",
-      "sha256": "af549d07245773871fa2af7720a6e9794d300c35dd4b321be10f25cb6d8a723f",
-      "size": 1047969,
+      "name": "JianJi-fnOS-1.0.38.fpk",
+      "sha256": "acb9e6b14b7c4a863e217e355919d6e1a7ca73b7478ac845c83df92347d918d0",
+      "size": 2675964,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-fnOS-1.0.37.fpk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-fnOS-1.0.37.fpk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-fnOS-1.0.37.fpk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/JianJi-fnOS-1.0.37.fpk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-fnOS-1.0.38.fpk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-fnOS-1.0.38.fpk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-fnOS-1.0.38.fpk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/JianJi-fnOS-1.0.38.fpk"
       ]
     },
     "android_apk": {
-      "name": "Jianji-Android-1.0.37.apk",
-      "sha256": "c55e3b60570c951f0db2c6a2add522408e0fc8bb101e7c0d4b273362ac7a19f3",
-      "size": 65620037,
+      "name": "Jianji-Android-1.0.38.apk",
+      "sha256": "5edce6a49596c9616efa7e127d9c70c0dd7d06a79b9d4459d0be44502e6f3e16",
+      "size": 66322204,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.apk",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.apk",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.apk",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.apk"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.apk",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.apk",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.apk",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.apk"
       ]
     },
     "android_aab": {
-      "name": "Jianji-Android-1.0.37.aab",
-      "sha256": "80aa87a92a3c7db34713e3e77e1a1c0cafaef21a793a7d419ecea247b137cc17",
-      "size": 63165994,
+      "name": "Jianji-Android-1.0.38.aab",
+      "sha256": "1d69467380de6bf24b6fda0106a95829f457e2a98daf953092b509eef7e70642",
+      "size": 63768636,
       "urls": [
-        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.aab",
-        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.aab",
-        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.aab",
-        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.37/Jianji-Android-1.0.37.aab"
+        "https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.aab",
+        "https://gh-proxy.com/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.aab",
+        "https://ghfast.top/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.aab",
+        "https://ghproxy.net/https://github.com/kynnzhou/jianji-release/releases/download/v1.0.38/Jianji-Android-1.0.38.aab"
       ]
     }
   }
